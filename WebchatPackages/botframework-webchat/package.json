@@ -1,0 +1,174 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "botframework-webchat@^0.11.4",
+        "scope": null,
+        "escapedName": "botframework-webchat",
+        "name": "botframework-webchat",
+        "rawSpec": "^0.11.4",
+        "spec": ">=0.11.4 <0.12.0",
+        "type": "range"
+      },
+      "c:\\Repos\\Intercom\\TokenService\\Bot.Client"
+    ]
+  ],
+  "_from": "botframework-webchat@>=0.11.4 <0.12.0",
+  "_id": "botframework-webchat@0.11.4",
+  "_inCache": true,
+  "_location": "/botframework-webchat",
+  "_nodeVersion": "8.1.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/botframework-webchat-0.11.4.tgz_1511389124221_0.9589234401937574"
+  },
+  "_npmUser": {
+    "name": "danmarshall",
+    "email": "danmar@microsoft.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {
+    "create-react-class": "15.6.3",
+    "fbjs": "0.8.16",
+    "loose-envify": "1.3.1",
+    "object-assign": "4.1.1",
+    "prop-types": "15.6.0"
+  },
+  "_requested": {
+    "raw": "botframework-webchat@^0.11.4",
+    "scope": null,
+    "escapedName": "botframework-webchat",
+    "name": "botframework-webchat",
+    "rawSpec": "^0.11.4",
+    "spec": ">=0.11.4 <0.12.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/botframework-webchat/-/botframework-webchat-0.11.4.tgz",
+  "_shasum": "bb062fbc08c727185faed6465df829badc3012d3",
+  "_shrinkwrap": null,
+  "_spec": "botframework-webchat@^0.11.4",
+  "_where": "c:\\Repos\\Intercom\\TokenService\\Bot.Client",
+  "author": {
+    "name": "Microsoft Corp"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/BotFramework-WebChat/issues"
+  },
+  "dependencies": {
+    "@types/react": "15.0.38",
+    "botframework-directlinejs": "0.9.13",
+    "core-js": "2.4.1",
+    "markdown-it": "8.3.1",
+    "microsoft-adaptivecards": "0.6.1",
+    "microsoft-speech-browser-sdk": "0.0.1",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-redux": "5.0.5",
+    "redux": "3.7.2",
+    "redux-observable": "0.13.0",
+    "rxjs": "5.4.3",
+    "tslib": "1.7.1"
+  },
+  "description": "Embeddable web chat control for the Microsoft Bot Framework",
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/chai": "3.4.34",
+    "@types/chai-subset": "1.0.29",
+    "@types/deep-freeze": "0.0.29",
+    "@types/express": "4.0.35",
+    "@types/markdown-it": "0.0.2",
+    "@types/nightmare": "1.6.30",
+    "@types/react-dom": "0.14.23",
+    "@types/react-redux": "4.4.38",
+    "awesome-typescript-loader": "3.1.2",
+    "body-parser": "1.16.0",
+    "chai": "3.5",
+    "chai-subset": "1.4.0",
+    "concurrently": "3.1.0",
+    "deep-freeze": "0.0.1",
+    "dotenv": "4.0.0",
+    "expose-loader": "0.7.3",
+    "express": "4.14.0",
+    "fs-extra": "1.0.0",
+    "http-server": "0.9.0",
+    "microsoft-adaptivecards-scss-to-json": "1.2.0",
+    "mocha": "3.2.0",
+    "multer": "1.3.0",
+    "nightmare": "2.8.1",
+    "nightmare-upload": "0.1.1",
+    "node-sass": "4.5.0",
+    "nodemon": "1.11.0",
+    "npm-run-all": "3.1.2",
+    "remote": "0.2.6",
+    "rimraf": "2.6.1",
+    "source-map-loader": "0.2.1",
+    "typescript": "2.3",
+    "vo": "4.0.2",
+    "webpack": "2.3.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-/vgOvpq64pxWb9Ap8EuKRAqZnd13WXVtyprqABjOIorf9H9Avt8z9JYAitaMPsHrULNzIfM8xJqv2AnNlBIM9Q==",
+    "shasum": "bb062fbc08c727185faed6465df829badc3012d3",
+    "tarball": "https://registry.npmjs.org/botframework-webchat/-/botframework-webchat-0.11.4.tgz"
+  },
+  "files": [
+    "built/",
+    "adaptivecards-hostconfig.json",
+    "botchat-fullwindow.css",
+    "botchat.css",
+    "botchat.js",
+    "CognitiveServices.js"
+  ],
+  "gitHead": "274e82f9c6b847174fa879a072790a36b13f2170",
+  "homepage": "https://github.com/Microsoft/BotFramework-WebChat#readme",
+  "license": "MIT",
+  "main": "built/BotChat.js",
+  "maintainers": [
+    {
+      "name": "geektrainer",
+      "email": "chrhar@microsoft.com"
+    },
+    {
+      "name": "danmarshall",
+      "email": "danmar@microsoft.com"
+    },
+    {
+      "name": "billba",
+      "email": "billba@microsoft.com"
+    },
+    {
+      "name": "botframework",
+      "email": "botframework@microsoft.com"
+    }
+  ],
+  "name": "botframework-webchat",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/Microsoft/BotFramework-WebChat.git"
+  },
+  "scripts": {
+    "build": "npm run build-css && tsc && webpack --progress",
+    "build-ac-config": "ac-scss2json ./src/scss/includes/adaptive-card-config.scss > adaptivecards-hostconfig.json",
+    "build-all-style": "npm run build-css && npm run build-ac-config && webpack",
+    "build-css": "node-sass ./src/scss/ -o . && rimraf ./includes/",
+    "build-test": "tsc -p ./test/mock_dl && tsc -p ./test && tsc -p ./test/mock_speech",
+    "build-test-watch": "concurrently \"tsc -w -p ./test/mock_dl\" \"tsc -w -p ./test\"",
+    "clean": "rimraf built",
+    "mock": "node test/mock_dl/index.js",
+    "prepublish": "tsc && npm run build-css && webpack --progress --config webpack.production.config.js",
+    "start": "http-server -p 8000",
+    "test": "concurrently  \"node test/mock_dl/index.js\" \"mocha test\" ",
+    "tsc-watch": "tsc -w",
+    "watch": "npm-run-all -p -r -l tsc-watch webpack-watch",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --progress --watch"
+  },
+  "types": "built/BotChat.d.ts",
+  "version": "0.11.4"
+}

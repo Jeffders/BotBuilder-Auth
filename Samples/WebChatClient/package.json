@@ -1,0 +1,19 @@
+{
+    "name": "bot-client-host",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "body-parser": "^1.18.2",
+        "concurrently": "^3.5.1",
+        "express": "^4.16.3",
+        "request": "^2.85.0"
+    },
+    "scripts": {
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "node server.js",
+        "client": "node start-client.js"
+    },
+    "dependencies": {
+        "packages": "0.0.8"
+    }
+}
